@@ -1,4 +1,8 @@
-## Introduction
+![mae-mu-TkzdkVn1AyA-unsplash](https://github.com/duplys/sturdy-pancake/assets/483081/0ff8f517-5ccc-452f-8f1b-0df8b6e649f6)
+
+Photo by [Mae Mu](https://unsplash.com/@picoftasty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/TkzdkVn1AyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
+  
+## Summary
 This repository contains programming exercises to illustrate the most important concepts in object-oriented programming (OOP). It also includes example solutions in Python 3.
 
 To make learning fun, the exercises implement a battleship game. The game rules are a simplified version of the rules suggested by Barry Carter in his excellent book "Naval Wargames".
