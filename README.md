@@ -1,4 +1,4 @@
-# Synopsys
+## Introduction
 Exercises in object-oriented programming, covering several topics including:
 * Basics of OOP
 * Classes vs instances (methods and variables)
