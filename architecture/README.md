@@ -10,7 +10,6 @@ A UML class diagram specifying a software architecture that implements the battl
 * An alternative to drawing UML diagrams by hand (digital or analog) is [PlantUML](https://plantuml.com). This little tool takes textual descriptions of UML diagrams and renders them in a graphical format like PNG or PDF. Working with textual descriptions has an additional advantage that you can [treat your diagrams as code](https://www.writethedocs.org/guide/docs-as-code/)
 
 ## References
+* Barry J. Carter "Naval Wargames", David & Charles, 1975
 * Eric Evans "Domain-Driven Design", 2003, Pearson
-
-## Game Rules
-To be added
+* 
