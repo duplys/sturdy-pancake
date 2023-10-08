@@ -8,7 +8,7 @@ This repository contains programming exercises to illustrate the most important 
 To make learning fun, the exercises implement a battleship game. The game rules are a simplified version of the rules suggested by Barry Carter in his excellent book "Naval Wargames".
 
 ## OOP Concepts
-In terms of OOP, the exercises covering the following topiocs:several topics including:
+In terms of OOP, the exercises covering the following topiocs:
 * Basics of OOP
 * Classes vs instances (methods and variables)
 * Data abstraction
