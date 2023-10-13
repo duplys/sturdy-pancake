@@ -1,0 +1,3 @@
+"""
+Code illustrating encapsulation.
+"""

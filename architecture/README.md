@@ -11,4 +11,4 @@ A UML class diagram specifying a software architecture that implements the battl
 
 ## References
 * Barry J. Carter "Naval Wargames", David & Charles, 1975
-* Eric Evans "Domain-Driven Design", 2003, Pearson
+* Eric Evans "Domain-Driven Design", Pearson, 2003
