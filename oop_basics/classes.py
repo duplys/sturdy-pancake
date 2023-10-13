@@ -40,15 +40,19 @@ class Ship():
 
 # Creating instance of class Ship
 ship = Ship("Bounty")
+
+# Adding crew and starting the journey
 ship.onboard_crew(["Samuel", "Edward", "Anne"])
 ship.report_crew()
 ship.start()
 
+# Making a stop
 ship.disembard_crew("arrival in Tahiti")
 ship.onboard_crew(["Samuel", "Edward", "Anne"])
 ship.report_crew()
 ship.start()
 
+# What is happening here?
 ship.go_under_deck()
 
 #ship.__start_mutiny()
