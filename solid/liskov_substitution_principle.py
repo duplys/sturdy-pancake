@@ -26,25 +26,40 @@ class Corvette(Ship):
         print(f"Corvette moves {num} squares ...")
 
 
-def make_move_bad(ship_array):
+def make_move_v1(ship_array):
     """Roll a dice and move the ships.
     
-        This function violates the Liskov substitution principle.
+        This function does not utilize the Liskov substitution principle.
 
-        ship_array (array): An array of ships of types Carrier or Corvette
+        ship_array (array): An array of ships of type Carrier or Corvette
     """
-    
+
     for s in ship_array:
         dist = randint(0,6)
-        if s.isinstance(Carrier):
+        if type(s) == Carrier:
             s.move(dist)
-        if s.isinstance(Corvette):
+        if type(s) == Corvette:
             s.move(dist)
 
 
+def make_move_v2(ship_array: Ship):
+    """Roll a dice and move the ships.
+    
+        This function utilizes Liskov substitution principle.
 
-ships =[Carrier, Corvette]
+        ship_array (array): An array of ships of type Carrier or Corvette
+    """
 
-print(ships)
+    for s in ship_array:
+        dist = randint(0,6)
+        s.move(dist)
+
+
+
+ships =[Carrier(), Corvette()]
+make_move_v1(ships)
+make_move_v2(ships)
+
+
 #move_ship(Carrier)
 #move_ship(Corvette)
