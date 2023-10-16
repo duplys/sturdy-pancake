@@ -59,7 +59,3 @@ def make_move_v2(ship_array: Ship):
 ships =[Carrier(), Corvette()]
 make_move_v1(ships)
 make_move_v2(ships)
-
-
-#move_ship(Carrier)
-#move_ship(Corvette)
