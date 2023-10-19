@@ -1,3 +1,0 @@
-"""
-Code illustrating dynamic dispatching.
-"""
