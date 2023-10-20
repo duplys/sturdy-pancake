@@ -5,7 +5,7 @@ Photo by [Mae Mu](https://unsplash.com/@picoftasty?utm_content=creditCopyText&ut
 ## Summary
 This repository contains code examples and coding exercises to illustrate various programming concepts and software architecture principles.
 
-To make learning a hands-on, interactive and fun experience, `architecture` folder contains a simplified version of battleship game rules suggested by Barry Carter in his excellent book "Naval Wargames".
+To make learning a hands-on, interactive and fun experience, `architecture` folder contains a simplified version of battleship game rules suggested by Barry Carter in his excellent book "Naval Wargames". The game can be used for exercises in software architecture and software engineering.
 
 ## OOP Concepts
 Code examples illustrating concepts in object-oriented programming (OOP) cover:
