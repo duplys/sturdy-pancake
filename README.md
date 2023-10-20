@@ -3,13 +3,13 @@
 Photo by [Mae Mu](https://unsplash.com/@picoftasty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/TkzdkVn1AyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
   
 ## Summary
-This repository contains programming exercises to illustrate the most important concepts in object-oriented programming (OOP). It also includes example solutions in Python 3.
+This repository contains code examples and coding exercises to illustrate various programming concepts and software architecture principles.
 
-To make learning fun, the exercises implement a battleship game. The game rules are a simplified version of the rules suggested by Barry Carter in his excellent book "Naval Wargames".
+To make learning a hands-on, interactive and fun experience, `architecture` folder contains a simplified version of battleship game rules suggested by Barry Carter in his excellent book "Naval Wargames".
 
 ## OOP Concepts
-In terms of OOP, the exercises covering the following topiocs:
-* Basics of OOP
+Code examples illustrating concepts in object-oriented programming (OOP) cover:
+* OOP basics (classes, methods, members)
 * Classes vs instances (methods and variables)
 * Data abstraction
 * Encapsulation
@@ -18,9 +18,16 @@ In terms of OOP, the exercises covering the following topiocs:
 * Polymorphism
 * Dynamic dispatching
 
-Potential further topics:
+## SOLID Principles
+Code examples illustrating the software architecture principles from Bob Martin's Clean Architecture (SOLID):
+* Single-responsibility principle
+* Open-closed principle
+* Liskov substitution principle
+* Interface segregation principle
+* Dependency inversion principle
+
+## Potential further topics
 * Dependency injection
-* SOLID
 * GRASP
 * Metaprogramming
 * Decorators
