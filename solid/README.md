@@ -8,3 +8,4 @@ Files in this directory contain Python code illustrating SOLID principles for so
 
 ## References
 * Bob Martin "Clean Architecture", Addison-Wesley, 2017
+* A very good tutorial [SOLID Principles: Improve Object-Oriented Design in Python](https://realpython.com/solid-principles-python/)
