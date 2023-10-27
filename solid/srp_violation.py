@@ -1,6 +1,6 @@
 """
 Code illustrating a violation of the single responsibility principle. The
-Filemanger class does two things:
+Filemanger class does two things, that is, has two responsibilities:
     1. read and write files
     2. zip and unzip files
 """
