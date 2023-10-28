@@ -1,0 +1,50 @@
+@startuml
+class PlayingArea {
+  {method} ~PlayingArea(x, y)
+}
+
+class Square {
+  {field} mine : Bool
+}
+
+class Sea {
+  {field} water: Square[]
+}
+
+class Harbour {
+  {field} land : Square[]
+}
+
+class Island {
+  {field} land : Square[]
+}
+
+class Coastline {
+  {field} land : Square[]
+}
+
+abstract class Ship {
+  {field} pos : Square
+  {method} ~Ship(name : String, pos : Square)
+  {method} turn()
+}
+
+class Dice {
+  {method} roll()
+}
+
+PlayingArea o-- Sea
+PlayingArea o-- Island
+PlayingArea o-- Harbour
+PlayingArea o-- Coastline
+
+Sea o-- Square
+Harbour o-- Square
+Island o-- Square
+Coastline o-- Square
+
+PlayingArea -- Ship
+
+Ship -- Dice
+
+@enduml
