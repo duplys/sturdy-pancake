@@ -28,8 +28,9 @@ Brief summary and example illustrating **Test-Driven Development**
     * System test = test whether the entire system solves some specific tasks
     * Acceptance test = tests whether the software meets end user's expectations
 * Grow software organically
-* Tests are requirements (specification)
-* Tests are a safety net
+* Unit tests are requirements-as-code (specification-as-code)
+* Unit tests build a safety net
+* Unit tests document the code (especially handy if you have to work with or refactor legacy code)
 
 ## Example: Simple Warehouse Management System
 
