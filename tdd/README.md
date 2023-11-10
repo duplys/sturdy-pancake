@@ -34,8 +34,9 @@ Brief summary and example illustrating **Test-Driven Development**
 ## Example: Simple Warehouse Management System
 
 The software shall fulfill the following requirements:
-* As a user, I want to be able to keep track of items in the warehouse
-* As a user, I want to be able to add items to the warehouse
+* ~~As a user, I want to be able to keep track of items in the warehouse~~
+* ~~As a user, I need a method to set the stock~~
+* ~~As a user, I want to be able to add items to the warehouse~~
 * As a user, I want to be able to remove items from the warehouse
 * As a user, I want to be able to get an overview of what's in stock
 
